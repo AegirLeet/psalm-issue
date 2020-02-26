@@ -1,0 +1,12 @@
+{
+    "require": {
+        "php": ">=7.2.0",
+        "illuminate/routing": "^6.17"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^3.9"
+    },
+    "scripts": {
+        "psalm": "psalm --config=psalm.xml --show-info=true --stats --no-progress"
+    }
+}
